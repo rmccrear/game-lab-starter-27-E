@@ -3,7 +3,7 @@ function setupSprites() {
   // Example Code follows.
   // Please delete and replace with your own code.
   player = createSprite(200, 200, 50, 50);
-  player.addAnimation('fly', alienAnimation);
+  player.addAnimation('fly', monkeyAnimation);
   player.height = 50;
   player.width = 50;
 

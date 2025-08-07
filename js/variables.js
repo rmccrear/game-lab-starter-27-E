@@ -1,7 +1,7 @@
 // Example Code follows.
 
 // animation variables
-var alienAnimation;
+var monkeyAnimation;
 var starAnimation;
 
 // sprite variables
