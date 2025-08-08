@@ -3,7 +3,7 @@ function setupSprites() {
   // Example Code follows.
   // Please delete and replace with your own code.
   player = createSprite(200, 200, 50, 50);
-  player.addAnimation('fly', monkeyAnimation);
+  player.addAnimation(monkey.png);
   player.height = 50;
   player.width = 50;
 
@@ -14,4 +14,5 @@ function setupSprites() {
   // star.velocityY = -2;
   // star.height = 30;
   // star.width = 30;
+  drawSprites
 }
