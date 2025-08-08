@@ -14,5 +14,5 @@ function setupSprites() {
   // star.velocityY = -2;
   // star.height = 30;
   // star.width = 30;
-  drawSprites
+  drawSprites()
 }
