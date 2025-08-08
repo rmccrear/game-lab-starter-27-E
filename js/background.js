@@ -21,6 +21,7 @@ function background1() {
     ellipse(65, 50, 150, 100);
     ellipse(335, 50, 150, 100);
     ellipse(200, 0, 300, 150);
+}
 
 function background2() {
     // Sky / background color
@@ -51,5 +52,4 @@ function background2() {
     ellipse(122, 250, 20, 10);
     ellipse(202, 300, 20, 10);
     ellipse(282, 350, 20, 10);
-}
 }
