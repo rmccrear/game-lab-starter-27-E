@@ -6,6 +6,8 @@ function drawBackground() {
     } else {
         background2();
     }
+    drawSprites();
+    showScore();
 }
 
 function background1() {
