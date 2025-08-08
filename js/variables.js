@@ -2,9 +2,9 @@
 
 // animation variables
 var monkeyAnimation;
-var starAnimation;
+var bananaAnimation;
 
 // sprite variables
 var monkey;
-var star
+var banana
 var score = 0

@@ -7,12 +7,11 @@ function setupSprites() {
   monkey.height = 50;
   monkey.width = 50;
 
-  star = createSprite(100, 100, 50, 50);
-  star.shapeColor = "aqua";
-  // star.addAnimation('twinkle', starAnimation);
-  // star.velocityX = -1;
-  // star.velocityY = -2;
-  // star.height = 30;
-  // star.width = 30;
-  drawSprites()
+  banana = createSprite(100, 100, 50, 50);
+  banana .addAnimation("banana", bananaAnimation);
+  // banana.velocityY = 5;
+  // banana.height = 30;
+  // banana.width = 30;
+  drawSprites
+  
 }
