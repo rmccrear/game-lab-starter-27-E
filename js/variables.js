@@ -1,10 +1,10 @@
 // Example Code follows.
 
 // animation variables
-var monkey;
+var monkeyAnimation;
 var starAnimation;
 
 // sprite variables
-var player;
+var monkey;
 var star
 var score = 0
