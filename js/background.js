@@ -4,21 +4,18 @@ function drawBackground() {
 }
 
 function background1() {
-    background("darkgreen"); // Jungle sky color
-    noStroke();
+    background("forestgreen");
 
-    // Jungle floor
-    fill("saddlebrown");
-    rect(0, height - 50, width, 50); // Jungle floor
+    // Tree trunks
+    fill(104, 68, 55);
+    rect(50, 0, 30, 400);
+    rect(320, 0, 30, 400);
 
-    // Simple trees (trunks and canopies)
-    fill("saddlebrown");
-    rect(100, height - 150, 20, 100); // Tree trunk 1
-    rect(300, height - 150, 20, 100); // Tree trunk 2
-
-    fill("forestgreen");
-    ellipse(110, height - 170, 80, 80); // Tree canopy 1
-    ellipse(310, height - 170, 80, 80); // Tree canopy 2
+    // Leaves (big canopy)
+    fill("limegreen");
+    ellipse(65, 50, 150, 100);
+    ellipse(335, 50, 150, 100);
+    ellipse(200, 0, 300, 150);
 }
 
 
