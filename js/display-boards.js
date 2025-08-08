@@ -1,6 +1,8 @@
 
 function showBoards() {
-  
+    textSize(20);
+    text("Score: " + score, 10, 10, 100, 100);
+    drawSprites();
 }
 
 function showScore() {
