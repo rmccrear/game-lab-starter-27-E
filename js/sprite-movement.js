@@ -1,15 +1,21 @@
 
 function doSpriteMovement() {
-    // Example Code follows.
-    // Please delete and replace with your own code.
-   if (monkey.y >= 320) 
-    monkey.velocityY = 0;
-}
-if (keyDown("UP_ARROW")) {
-    monkey.velocityY = -5;
+// Move left
+  if (keyDown(LEFT_ARROW)) {
+    monkey.x -= 5;
   }
 
- if ((monkey.y) <= 150) {
-    monkey.velocityY = monkey.velocityY + 0.25;
+  // Move right
+  if (keyDown(RIGHT_ARROW)) {
+    monkey.x += 5;
   }
+
+  // Move up
+  if (keyDown(UP_ARROW)) {
+    monkey.y -= 5;
+  }
+
+  drawSprites();
+}
+
 
